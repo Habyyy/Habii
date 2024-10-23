@@ -16,19 +16,17 @@
     <div class="flex">
         <!-- Sidebar -->
         <?php include 'includes/sidebar.php'; ?>
-
         <!-- Main Content -->
         <div class="flex-1 p-8">
-            <?php
-            foreach ($obj_role as $role){
-    
-                echo "Id role : ".$role->role_id."<br>";
-                echo "Nama role : ".$role->role_name."<br>";
-                echo "Keterangan role : ".$role->role_description."<br>";
-                echo "Status role : ".$role->role_status."<br>";
-                echo "<br>";
-            }
-            ?>
+            <!-- <?php
+            // foreach ($obj_role=[] as $role){
+            //     echo "Id role : ".$role->role_id."<br>";
+            //     echo "Nama role : ".$role->role_name."<br>";
+            //     echo "Keterangan role : ".$role->role_description."<br>";
+            //     echo "Status role : ".$role->role_status."<br>";
+            //     echo "<br>";
+            // }
+            // ?> -->
         </div>
     </div>
 
